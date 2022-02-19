@@ -51,7 +51,4 @@ def generate_random_password():
 
 	print("".join(password))
 
-
-
-
 generate_random_password()

@@ -37,8 +37,6 @@ def generate_random_password():
 	for i in range(special_characters_count):
 		password.append(random.choice(special_characters))
 
-        if characters_count = 0:
-		print("All the number of characters combined is 0 , Password has to have characters more than 0.")
 
 	if characters_count < length:
 		random.shuffle(characters)

@@ -44,10 +44,7 @@ def generate_random_password():
 		for i in range(length - characters_count):
 			password.append(random.choice(characters))
 
-
-
 	random.shuffle(password)
-
 
 	print("".join(password))
 

@@ -7,6 +7,7 @@ digits = list(string.digits)
 special_characters = list("!@#$%^&*()")
 characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
 
+print("If the program closes , it means there was an error.")
 
 def generate_random_password():
 	length = int(input("Password length: "))
@@ -51,4 +52,5 @@ def generate_random_password():
 	print("".join(password))
 
 generate_random_password()
-input("Press Enter to Exit")
+input("Press enter to exit")
+

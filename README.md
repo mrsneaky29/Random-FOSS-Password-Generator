@@ -5,5 +5,5 @@ Instructions
 Download the zip file
 Extract it
 Run the python file(You can see it first)
-If the program closes , it means there was an error.
+If the program closes without you clicking error at the end, it means there was an error.
 There are no error codes currently.

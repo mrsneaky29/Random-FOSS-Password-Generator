@@ -7,7 +7,11 @@ digits = list(string.digits)
 special_characters = list("!@#$%^&*()")
 characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
 
-print("If the program closes , it means there was an error.")
+print("If the program closes without you clicking enter at the end, it means there was an error.")
+print("If you want the number of alphabets/digits/symbols to be random then put in 0s when the program asks you the number.")
+print("You will get a randomized password based on how much you want the length of the password to be.")
+
+
 
 def generate_random_password():
 	length = int(input("Password length: "))

@@ -10,12 +10,12 @@ characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
 print("If the program closes without you clicking enter at the end, it means there was an error.")
 print("If you want the number of alphabets/digits/symbols to be random then put in 0s when the program asks you the number.")
 print("You will get a randomized password based on how much you want the length of the password to be.")
+print("Program is still in development.It is very buggy")
 
 
 
 def generate_random_password():
 	length = int(input("Password length: "))
-
 	alphabets_count = int(input("Alphabets count in password: "))
 	digits_count = int(input("Digits count in password: "))
 	special_characters_count = int(input("Special characters count in password: "))
@@ -49,7 +49,7 @@ def generate_random_password():
 		random.shuffle(characters)
 		for i in range(length - characters_count):
 			password.append(random.choice(characters))
-			
+
 
 	random.shuffle(password)
 
